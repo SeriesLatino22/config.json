@@ -1,0 +1,9 @@
+{
+  "adConfig": {
+    "interstitialAdId": "ca-app-pub-3165095253471876/2576139014",
+    "adInterval": 1800000,
+    "initialDelay": 900000,
+    "minAdLoadInterval": 30000,
+    "enabled": true
+  }
+}
