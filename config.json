@@ -1,9 +1,20 @@
 {
-  "adConfig": {
-    "interstitialAdId": "ca-app-pub-3165095253471876/2576139014",
-    "adInterval": 12000,
-    "initialDelay": 900000,
-    "minAdLoadInterval": 30000,
-    "enabled": true
+  "version": 2,
+  "ad_interval": 1800000, 
+  "webview_urls": {
+    "main": "https://ejemplo.com/main",
+    "favoritos": "https://ejemplo.com/favoritos"
+  },
+  "admob": {
+    "app_id": "ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy",
+    "interstitial_id": "ca-app-pub-xxxxxxxxxxxxxxxx/zzzzzzzzzz",
+    "rewarded_id": "ca-app-pub-xxxxxxxxxxxxxxxx/aaaaaaaaaa",
+    "app_open_id": "ca-app-pub-xxxxxxxxxxxxxxxx/bbbbbbbbbb",
+    "native_advanced_id": "ca-app-pub-xxxxxxxxxxxxxxxx/cccccccccc"
+  },
+  "unity": {
+    "game_id": "1234567",
+    "interstitial_id": "Interstitial_Android",
+    "rewarded_id": "Rewarded_Android"
   }
 }
